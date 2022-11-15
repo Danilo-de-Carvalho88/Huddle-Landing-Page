@@ -3,11 +3,11 @@
 </h1>
 
 <h1>
-<img src="https://danilo-de-carvalho88.github.io/Huddle-Landing-Page/" alt="Gif Huddle Landing Page">
+<img src="#" alt="Gif Huddle Landing Page">
 </h1>
 
 <h3 align="center">
-    <a href="#">Acessar a demonstração</a>
+    <a href="https://danilo-de-carvalho88.github.io/Huddle-Landing-Page/">Acessar a demonstração</a>
 </h3>
 
 # Índice
