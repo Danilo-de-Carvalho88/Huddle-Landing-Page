@@ -1,0 +1,6 @@
+@media(max-width:500px){
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, ifr);
+    }
+}

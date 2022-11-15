@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background: url('../images/bg-desktop.svg') center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 1440px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "principal lateral"
+    "footer footer";
+    grid-template-columns: 770px 1fr;
+    font-family: 'Open Sans', sans-serif;
+    color: limegreen;
+}
+
+/* Header */
+.cabecalho {
+    grid-area: header;
+    max-height: 100px;
+}
+
+.cabecalho img {
+    margin-left: 300px;
+}
+
+/* Corpo-imagem */
+.corpo-image {
+    grid-area: principal;
+    height: 73vh;
+    width: 100%;
+}
+
+.corpo-image img {
+    width: 77%;
+    padding: 30px 133px;
+}
+
+/* Register-forms */
+.corpo-register {
+    grid-area: lateral;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10px;
+    height: 73vh;
+}
+
+.corpo-register .titulos{
+    font-family: 'Poppins', sans-serif;
+    line-height: 33px;
+}
+
+.corpo-register .titulo-1 {
+    margin-top: 100px;
+}
+
+.corpo-register .info {
+    margin-top: 15px;
+    width: 67%;
+}
+
+.corpo-register .btn-register {
+    margin-top: 15px;
+    align-self: flex-start;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+.corpo-register .btn-register {
+    color: var(--Violet);
+    transform: 0.5s;
+}
+
+.corpo-register .btn-register:hover {
+    background-color: var(--Soft-Magenta);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Rodapé */
+.rodape {
+    grid-area: footer;
+    height: 12vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.rodape .social {
+    margin-right: 170px;
+}
+
+.rodape .social i {
+    font-size: 20px;
+    color: limegreen;
+    border: 2px solid limegreen;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.rodape .social i:hover {
+    color: var(--Soft-Magenta);
+    border: 2px solid var(--Soft-Magenta);
+}
+
+.rodape .social a {
+    padding: 5px;
+    
+}
+
