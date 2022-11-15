@@ -3,7 +3,7 @@
 </h1>
 
 <h1>
-<img src="#" alt="Gif Huddle Landing Page">
+<img src="https://danilo-de-carvalho88.github.io/Huddle-Landing-Page/" alt="Gif Huddle Landing Page">
 </h1>
 
 <h3 align="center">
@@ -35,19 +35,19 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 1 - Clonar o repositório.
 
 ```bash
-    $ git clone https://danilo-de-carvalho88.github.io/menu-bank/
+    $ git clone https://github.com/Danilo-de-Carvalho88/Huddle-Landing-Page.git
 ```
 
 2 - Entrar no diretório.
 
 ```bash
-    $ cd NOME DO PROJETO.
+    $ cd Huddle-Landing-Page
 ```
 
 3 - Instalar as dependências.
 
 ```bash
-    $ yarn install 
+    $ yarn install
 ```
 
 4 - Iniciar o projeto.
