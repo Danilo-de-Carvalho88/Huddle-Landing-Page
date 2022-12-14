@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body {
+.container-princial {
     background: url('../images/bg-desktop.svg') center center no-repeat;
+    background-color: var(--Violet);
     background-size: cover;
     min-height: 100vh;
-    width: 1440px;
+    max-width: 1440px;
     display: grid;
     grid-template-areas: 
     "header header"
     "principal lateral"
     "footer footer";
-    grid-template-columns: 770px 1fr;
+    grid-template-columns: 1fr 1fr;
     font-family: 'Open Sans', sans-serif;
-    color: limegreen;
+    color: white;
 }
 
 /* Header */
@@ -29,7 +30,6 @@ body {
 /* Corpo-imagem */
 .corpo-image {
     grid-area: principal;
-    height: 73vh;
     width: 100%;
 }
 
@@ -45,7 +45,6 @@ body {
     flex-direction: column;
     width: 100%;
     padding-left: 10px;
-    height: 73vh;
 }
 
 .corpo-register .titulos{
@@ -72,6 +71,7 @@ body {
 .corpo-register .btn-register {
     color: var(--Violet);
     transform: 0.5s;
+    background-color: white;
 }
 
 .corpo-register .btn-register:hover {
@@ -96,8 +96,8 @@ body {
 
 .rodape .social i {
     font-size: 20px;
-    color: limegreen;
-    border: 2px solid limegreen;
+    color: white;
+    border: 2px solid white;
     border-radius: 50%;
     padding: 5px;
 }

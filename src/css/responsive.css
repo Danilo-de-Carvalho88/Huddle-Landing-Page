@@ -1,6 +1,80 @@
-@media(max-width:500px){
-    body {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, ifr);
+@media(max-width:768px) {
+    .container-princial {
+        grid-template-areas: 
+        "header"
+        "principal"
+        "lateral"
+        "footer";
+    }
+
+    /* Header */
+    .cabecalho {
+        grid-area: header;
+        max-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .cabecalho img {
+        margin: 0;
+    }
+
+    /* Corpo-imagem */
+    .corpo-image {
+        grid-area: principal;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+        background-color: blanchedalmond;
+    }
+
+    .corpo-image img {
+        width: 300px;
+        padding: 0px;
+    }
+
+    /* Register-forms */
+
+    .corpo-register {
+        grid-area: lateral;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        background-color: blueviolet;
+    }
+
+    .corpo-register .titulos{
+        font-family: 'Poppins', sans-serif;
+        line-height: 33px;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    .corpo-register .titulo-1 {
+        margin: 0px;
+    }
+    
+    .corpo-register .info {
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+    .corpo-register .btn-register {
+        margin-top: 15px;
+        padding: 10px 50px;
+        border-radius: 30px;
+        color: var(--Violet);
+        transform: 0.5s;
+        text-align: center;
+    }
+    
+    .corpo-register .btn-register:hover {
+        background-color: var(--Soft-Magenta);
+        color: #fff;
+        cursor: pointer;
     }
 }
