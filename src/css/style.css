@@ -25,6 +25,8 @@
 
 .cabecalho img {
     margin-left: 300px;
+    max-width:300px;
+    max-height:150px;
 }
 
 /* Corpo-imagem */
@@ -78,6 +80,7 @@
     background-color: var(--Soft-Magenta);
     color: #fff;
     cursor: pointer;
+    box-shadow: 0px 0px 12px #333;
 }
 
 /* Rodapé */

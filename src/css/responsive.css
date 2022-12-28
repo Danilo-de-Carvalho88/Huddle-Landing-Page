@@ -1,10 +1,10 @@
-@media(max-width:768px) {
+@media(max-width:420px) {
     .container-princial {
-        grid-template-areas: 
-        "header"
-        "principal"
-        "lateral"
-        "footer";
+        grid-template-areas:
+            "header"
+            "principal"
+            "lateral"
+            "footer";
     }
 
     /* Header */
@@ -17,7 +17,9 @@
     }
 
     .cabecalho img {
-        margin: 0;
+        margin-left: -170px;
+        max-width:130px;
+        max-height:70px;
     }
 
     /* Corpo-imagem */
@@ -28,7 +30,6 @@
         justify-content: center;
         align-content: center;
         margin-top: 10px;
-        background-color: blanchedalmond;
     }
 
     .corpo-image img {
@@ -44,37 +45,68 @@
         flex-direction: column;
         align-content: center;
         width: 100%;
-        background-color: blueviolet;
     }
 
-    .corpo-register .titulos{
+    .corpo-register .titulos {
         font-family: 'Poppins', sans-serif;
         line-height: 33px;
-        margin: 0px;
+        margin-top: 50px;
         text-align: center;
+        font-size: 17px;
     }
-    
+
     .corpo-register .titulo-1 {
         margin: 0px;
     }
-    
+
     .corpo-register .info {
         margin-top: 15px;
         width: 100%;
+        text-align: center;
     }
-    
+
     .corpo-register .btn-register {
         margin-top: 15px;
-        padding: 10px 50px;
+        padding: 10px 100px;
         border-radius: 30px;
         color: var(--Violet);
         transform: 0.5s;
         text-align: center;
+        align-self: center;
     }
-    
+
     .corpo-register .btn-register:hover {
         background-color: var(--Soft-Magenta);
         color: #fff;
         cursor: pointer;
+    }
+
+    /* Rodapé */
+    .rodape {
+        grid-area: footer;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape .social {
+        margin-right: 10px;
+    }
+
+    .rodape .social i {
+        font-size: 20px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .rodape .social i:hover {
+        color: var(--Soft-Magenta);
+        border: 2px solid var(--Soft-Magenta);
+    }
+
+    .rodape .social a {
+        padding: 5px;
+
     }
 }
