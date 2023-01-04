@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-.container-princial {
+body {
     background: url('../images/bg-desktop.svg') center center no-repeat;
     background-color: var(--Violet);
     background-size: cover;
     min-height: 100vh;
+}
+
+.container-princial {
+    margin: 0 auto;
     max-width: 1440px;
     display: grid;
     grid-template-areas: 
@@ -52,11 +56,12 @@
 .corpo-register .titulos{
     font-family: 'Poppins', sans-serif;
     line-height: 33px;
-}
-
-.corpo-register .titulo-1 {
     margin-top: 100px;
 }
+
+/* .corpo-register .titulo-1 {
+    margin-top: 100px;
+} */
 
 .corpo-register .info {
     margin-top: 15px;
@@ -95,6 +100,7 @@
 
 .rodape .social {
     margin-right: 170px;
+    display: flex;
 }
 
 .rodape .social i {
@@ -102,7 +108,12 @@
     color: white;
     border: 2px solid white;
     border-radius: 50%;
-    padding: 5px;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
 }
 
 .rodape .social i:hover {

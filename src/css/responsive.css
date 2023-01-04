@@ -19,8 +19,9 @@
     }
 
     .cabecalho img {
-        margin-left: -170px;
-        max-width:130px;
+        /* margin-left: -170px; */
+        margin: auto;
+        max-width:170px;
         max-height:70px;
     }
 
@@ -62,17 +63,18 @@
     }
 
     .corpo-register .info {
-        margin-top: 15px;
+        /* margin-top: 15px; */
         width: 100%;
         text-align: center;
     }
 
     .corpo-register .btn-register {
-        margin-top: 15px;
-        padding: 10px 100px;
-        border-radius: 30px;
-        color: var(--Violet);
-        transform: 0.5s;
+        /* margin-top: 15px; */
+        /* align-self: flex-start; */
+        /* padding: 10px 50px; */
+        /* border-radius: 30px; */
+        /* color: var(--Violet); */
+        /* transform: 0.5s; */
         text-align: center;
         align-self: center;
     }
